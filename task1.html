@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body{
+            background-color:#355;
+        }
+        input [type=text]{
+            width: 50%;
+
+        }
+        
+    </style>
+    <title>htmlform</title>
+</head>  
+<body>
+
+<form method="POST" action="quiz3.php">
+<fieldset>
+   <legend> REGISTRATION FORM</legend>
+   <p><label for="Firstname">FIRST NAME:</label>
+   <input type="text" name="firstname" id="Firstname"> </p>
+
+   <label for="Lastname">LAST NAME:</label>
+   <input for="Lastname" name="lastname" id="Lastname">
+   <br>
+   <br>
+   <label for="email">EMAIL:</label>
+         <input type="email" name="email" id="email">
+   <br>
+   <br>
+   <label for="password">PASSWORD:</label>
+   <input type="password" name="password" id="password">
+   
+   <label for="password">CONFIRM PASSWORD:</label>
+   <input type="password" name="Confirm password" id="Confirm password">
+   <br>
+   <br>
+   <label for=" Phone no">PHONE</label>
+   <input type="number" name="phoneno" id="number">
+   <br>
+   <br>
+   <input type="radio" name="gender" id="female" value="female">
+   <label for="Female">Female</label>
+     <br>
+   <input type="radio" name="gender" id="male" value="male">
+   <label for="Male">Male</label>
+   <br>
+   <br>
+   <label for="country">COUNTRY</label>
+   
+   <select name="country" id="country">
+    <option value="Nigeria">Nigeria</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Kenya">Kenya</option>
+    </select>
+  <button type="submit" name="submit" value="submit">SUBMIT</button>
+
+
+</fieldset>
+</form>
+
+</body>
+</html>
