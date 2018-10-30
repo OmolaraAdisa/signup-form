@@ -34,7 +34,7 @@
         fieldset{
             background-color: darkcyan;
             width: 300px;
-            margin-left: 450px;
+            margin:auto;
             margin-top: 40px;
         }
         label{
@@ -50,11 +50,13 @@
 <form method="POST" action="quiz.php">
 <fieldset>
    <legend> REGISTRATION FORM</legend>
-   <p><label for="Firstname">FIRST NAME:</label>
-   <input type="text" name="firstname" id="Firstname"> </p>
+   <p>
+       <label for="Firstname">FIRST NAME:</label>
+       <input type="text" name="firstname" id="Firstname">
+   </p>
 
    <label for="Lastname">LAST NAME:</label>
-   <input type="text" name="lastname" id="Lastname">
+        <input type="text" name="lastname" id="Lastname">
    <br>
    <br>
    <label for="email">EMAIL:</label>
@@ -62,32 +64,32 @@
    <br>
    <br>
    <label for="password">PASSWORD:</label>
-   <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password">
    <br>
    <br>
    <label for="password">CONFIRM PASSWORD:</label>
-   <input type="password" name="Confirmpassword" id="Confirmpassword">
+        <input type="password" name="Confirmpassword" id="Confirmpassword">
    <br>
    <br>
    <label for=" Phone no">PHONE</label>
-   <input type="number" name="phoneno" id="number">
+        <input type="number" name="phoneno" id="number">
    <br>
    <br>
    <label for="gender">GENDER</label>
    <br>
-   <input type="radio" name="gender" id="female" value="female">
+        <input type="radio" name="gender" id="female" value="female">
    <label for="Female">Female</label>
      <br>
-   <input type="radio" name="gender" id="male" value="male">
+        <input type="radio" name="gender" id="male" value="male">
    <label for="Male">Male</label>
    <br>
    <br>
    <label for="country">COUNTRY</label>
    
    <select name="country" id="country">
-    <option value="Nigeria">Nigeria</option>
-    <option value="Ghana">Ghana</option>
-    <option value="Kenya">Kenya</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Ghana">Ghana</option>
+        <option value="Kenya">Kenya</option>
     </select>
   <button type="submit" name="submit" value="submit">SUBMIT</button>
 
