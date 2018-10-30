@@ -4,41 +4,76 @@
     <style>
         body{
             background-color:#355;
+            font-weight: bolder;
+            font-family: Verdana;
+            color:black;
+            
         }
-        input [type=text]{
-            width: 50%;
+        input[type=text]{
+            width: 250px;
+            border-radius: 7px;
+            padding: 8px;
 
         }
+        input[type=password]{
+            width: 250px;
+            border-radius: 7px;
+            padding: 8px;
+        }
+        input[type=number]{
+            width: 250px;
+            border-radius: 7px;
+            padding: 8px;
+        }
+        button[type=submit]{
+            width: 100px;
+            border-radius: 7px;
+            padding: 8px;
+            background-color: yellowgreen;
+        }
+        fieldset{
+            background-color: darkcyan;
+            width: 300px;
+            margin-left: 450px;
+            margin-top: 40px;
+        }
+        label{
+            padding: 3px;
+        }
+
         
     </style>
     <title>htmlform</title>
 </head>  
 <body>
 
-<form method="POST" action="quiz3.php">
+<form method="POST" action="quiz.php">
 <fieldset>
    <legend> REGISTRATION FORM</legend>
    <p><label for="Firstname">FIRST NAME:</label>
    <input type="text" name="firstname" id="Firstname"> </p>
 
    <label for="Lastname">LAST NAME:</label>
-   <input for="Lastname" name="lastname" id="Lastname">
+   <input type="text" name="lastname" id="Lastname">
    <br>
    <br>
    <label for="email">EMAIL:</label>
-         <input type="email" name="email" id="email">
+         <input type="text" name="email" id="email">
    <br>
    <br>
    <label for="password">PASSWORD:</label>
    <input type="password" name="password" id="password">
-   
+   <br>
+   <br>
    <label for="password">CONFIRM PASSWORD:</label>
-   <input type="password" name="Confirm password" id="Confirm password">
+   <input type="password" name="Confirmpassword" id="Confirmpassword">
    <br>
    <br>
    <label for=" Phone no">PHONE</label>
    <input type="number" name="phoneno" id="number">
    <br>
+   <br>
+   <label for="gender">GENDER</label>
    <br>
    <input type="radio" name="gender" id="female" value="female">
    <label for="Female">Female</label>
