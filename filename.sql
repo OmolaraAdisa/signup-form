@@ -1,20 +1,22 @@
-		Create table users
-        insert into table values:
+		Create database registration;
+		Use registration;
+		Create table users(
         id Primary	int(50)		AUTO_INCREMENT
 
-		firstname	varchar(50)	
+		firstname	varchar(50)	not null,
 
-		lastname	varchar(50)	
+		lastname	varchar(50)	not null,
 
-		email	varchar(50)	
+		email	varchar(50)	not null,
 
-		password	varchar(50)		
+		password	varchar(50)	not null,
 
-    	phoneno	varchar(14)	
+    	phoneno	varchar(14)	not null,
 
-		gender	text		
+		gender	text	not null,	
 
-		country	text		
+		country	text	not null,	
 
-		date	datetime(6)				
+		date	datetime(6)	
+		);			
 
